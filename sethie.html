@@ -6,29 +6,53 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #FAFAFA;
-  text-align: center;
   margin: 0;
+  text-align: center;
 }
 
 .container {
-  margin: 80px auto;
+  margin: 60px auto;
   padding: 30px;
-  max-width: 500px;
+  max-width: 520px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #eaeaea;
+  margin: 0 auto 15px;
 }
 
 h1 {
-  margin-bottom: 5px;
+  margin: 5px 0;
   letter-spacing: 1px;
 }
 
 p {
-  margin-top: 0;
+  margin: 0;
   color: #777;
+  font-size: 14px;
+}
+
+.divider {
+  width: 60px;
+  height: 3px;
+  background: black;
+  margin: 20px auto;
+  border-radius: 10px;
 }
 
 h2 {
-  margin-top: 30px;
-  font-size: 18px;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
 ul {
@@ -37,17 +61,21 @@ ul {
 }
 
 li {
-  margin: 6px 0;
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 10px;
+  background: #f2f2f2;
+  font-size: 14px;
 }
 
 a {
   display: inline-block;
   margin-top: 25px;
-  padding: 10px 18px;
+  padding: 10px 20px;
   text-decoration: none;
   color: black;
   border: 1px solid black;
-  border-radius: 20px;
+  border-radius: 25px;
   transition: 0.3s;
 }
 
@@ -57,9 +85,9 @@ a:hover {
 }
 
 footer {
-  margin-top: 50px;
+  margin-top: 30px;
   font-size: 12px;
-  color: #999;
+  color: #aaa;
 }
 </style>
 </head>
@@ -67,9 +95,12 @@ footer {
 
 <div class="container">
   <header>
+    <div class="avatar"></div>
     <h1>LUIS SETH V. RAMOS</h1>
     <p>BSIT-1B</p>
   </header>
+
+  <div class="divider"></div>
 
   <main>
     <h2>My Hobbies</h2>
@@ -83,7 +114,7 @@ footer {
   </main>
 
   <footer>
-    <p>@2025 LUIS SETH V. RAMOS</p>
+    <p>@sa bahay po ako pinanganak</p>
   </footer>
 </div>
 
